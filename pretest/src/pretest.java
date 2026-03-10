@@ -31,7 +31,7 @@ public class pretest {
                 System.out.println("Kelayakan Donor Darah : Tidak Layak, Berat Badan Tidak Mencukupi (Minimal 45 Kg)");
             }
         } else {
-            System.out.println("Kelayakan Donor Darah : Tidak Layak, Usia Tidak Mencukupi (Minimal 17 Tahun)");
+            System.out.println("Kelayakan Donor Darah : Tidak Layak, Usia Tidak Sesuai Kriteria (17-60 Tahun)");
         }
     }
 }
