@@ -20,7 +20,7 @@ public class pretest {
         System.out.println("Nama : " + nama);
         System.out.println("Usia : " + usia);
         
-        if (usia >= 17) {
+        if (usia >= 17 && usia <= 60) {
             if (bb >= 45.0) {
                 if (hemo >= 15.0) {
                     System.out.println("Kelayakan Donor Darah : Layak");
