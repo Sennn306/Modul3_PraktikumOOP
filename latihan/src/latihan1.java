@@ -7,10 +7,10 @@ public class latihan1 {
         String pilihan = input.nextLine();
 
         System.out.print("Masukkan angka pertama : ");
-        int angka1 = input.nextInt();
+        float angka1 = input.nextFloat();
 
         System.out.print("Masukkan angka kedua : ");
-        int angka2 = input.nextInt();
+        float angka2 = input.nextFloat();
 
         switch (pilihan) {
             case "+":
