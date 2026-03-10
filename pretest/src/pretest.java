@@ -25,13 +25,13 @@ public class pretest {
                 if (hemo >= 15.0) {
                     System.out.println("Kelayakan Donor Darah : Layak");
                 } else {
-                    System.out.println("Kelayakan Donor Darah : Tidak Layak, Kadar Hemoglobin Tidak Mencukupi");
+                    System.out.println("Kelayakan Donor Darah : Tidak Layak, Kadar Hemoglobin Tidak Mencukupi (Minimal 15 g/dL)");
                 }     
             } else {
-                System.out.println("Kelayakan Donor Darah : Tidak Layak, Berat Badan Tidak Mencukupi");
+                System.out.println("Kelayakan Donor Darah : Tidak Layak, Berat Badan Tidak Mencukupi (Minimal 45 Kg)");
             }
         } else {
-            System.out.println("Kelayakan Donor Darah : Tidak Layak, Usia Tidak Mencukupi");
+            System.out.println("Kelayakan Donor Darah : Tidak Layak, Usia Tidak Mencukupi (Minimal 17 Tahun)");
         }
     }
 }
